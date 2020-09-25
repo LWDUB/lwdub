@@ -987,6 +987,9 @@ NS Package M08A</description>
 <text x="0" y="-1.27" size="1.27" layer="21">5V</text>
 <text x="0" y="-3.81" size="1.27" layer="21">GND</text>
 </package>
+<package name="GITTEST">
+<pad name="P$1" x="0" y="0" drill="0.8" shape="square"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEST">
@@ -1547,6 +1550,9 @@ NS Package M08A</description>
 <pin name="SIGNAL" x="-5.08" y="5.08" length="middle"/>
 <pin name="5V" x="-5.08" y="2.54" length="middle"/>
 <pin name="GND" x="-5.08" y="0" length="middle"/>
+</symbol>
+<symbol name="GITTEST">
+<pin name="P$1" x="0" y="0" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2245,6 +2251,21 @@ Source: https://www.distrelec.ch/ishop/Datasheets/joLM2594xxx-xx_e.pdf</descript
 <connect gate="G$1" pin="5V" pad="5V"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GITTEST">
+<gates>
+<gate name="G$1" symbol="GITTEST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GITTEST">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
