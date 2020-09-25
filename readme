@@ -1,47 +1,54 @@
 Eagle Library lwdub
 
+
 Potentiometer:
-- 3329_TRIMM
+						- 3329_TRIMM
 
 LED:
-- LED-LIGHT-BAR	Kingbright® KB-2800SGW Distrelec: 254692
+						- LED-LIGHT-BAR	Kingbright® KB-2800SGW Distrelec: 254692
 
-Voltage Regulator:
-Step-Down:
-- LM2594_VOLTAGE_REGULATOR LM2594xxx-xx
+Step-Down Converter:
+						- LM2594_VOLTAGE_REGULATOR LM2594xxx-xx
 
-Boost:
+Boost Converter:
 
 Taster:
-- MENTOR_TASTER_1840.6131
+						- MENTOR_TASTER_1840.6131
 
 Transistor:
-- BD136
+						- BD136
 
-ISP Programmierstecker:
-- PROGRAMMIERSTECKER_SMD
-- ISP_PROG_STECKER_JST_2MM (JST-PH6)
+ISP Prog Stecker:
+						- PROGRAMMIERSTECKER_SMD (div. Package variants)
+						
 
 Stecker / Buchsen:
-- MICRO_USB_B
-- PAD_3.6MM_8MM
+						- MICRO_USB_B
+						- PAD_3.6MM_8MM
+						- Servo_Stecker
 
 PCB's:
-- PCB_LSC115_F2	(passend Takachi Gehäuse LCS115-F2)
-- 
+						- PCB_LSC115_F2	(passend Takachi Gehäuse LCS115-F2)
+						- LCS115-N		(passend Takachi Gehäuse LCS115-N)
 Module:
-- DMS-BRÜCKENSTÄRKER_MBA-1000/X
+						- DMS-BRÜCKENSTÄRKER_MBA-1000/X
+						- Step_Down_Converter_3A
 
 IC's:
-- SN7447-AN_BCD-TO-7SEGMENT
-- OP Amp TC7650CPA
+						- SN7447-AN_BCD-TO-7SEGMENT
+						- OP Amp TC7650CPA
 
 Displays:
-- TFT_18_PIN_TOUCH
+						- TFT_18_PIN_TOUCH
+						- 128x160_TFT
+						- 130_OLED (1.3" OLED)
+						- NOKIA_5510_GLCD
+						
+Schalter / Taster:
+						- VERSTÄRKER-SCHALTER
+						- SELECTOR_SWITCH_TYPE_07R
 
 Div:
-- MET-32
-- SB1R5
-- VERSTÄRKER-SCHALTER
-- SELECTOR_SWITCH_TYPE_07R
-- SI-1010G
+						- MET-32
+						- SB1R5
+						- SI-1010G
