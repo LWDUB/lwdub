@@ -1,0 +1,47 @@
+Eagle Library lwdub
+
+Potentiometer:
+- 3329_TRIMM
+
+LED:
+- LED-LIGHT-BAR	Kingbright® KB-2800SGW Distrelec: 254692
+
+Voltage Regulator:
+Step-Down:
+- LM2594_VOLTAGE_REGULATOR LM2594xxx-xx
+
+Boost:
+
+Taster:
+- MENTOR_TASTER_1840.6131
+
+Transistor:
+- BD136
+
+ISP Programmierstecker:
+- PROGRAMMIERSTECKER_SMD
+- ISP_PROG_STECKER_JST_2MM (JST-PH6)
+
+Stecker / Buchsen:
+- MICRO_USB_B
+- PAD_3.6MM_8MM
+
+PCB's:
+- PCB_LSC115_F2	(passend Takachi Gehäuse LCS115-F2)
+- 
+Module:
+- DMS-BRÜCKENSTÄRKER_MBA-1000/X
+
+IC's:
+- SN7447-AN_BCD-TO-7SEGMENT
+- OP Amp TC7650CPA
+
+Displays:
+- TFT_18_PIN_TOUCH
+
+Div:
+- MET-32
+- SB1R5
+- VERSTÄRKER-SCHALTER
+- SELECTOR_SWITCH_TYPE_07R
+- SI-1010G
