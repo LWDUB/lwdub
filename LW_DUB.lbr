@@ -631,7 +631,7 @@ NS Package M08A</description>
 <hole x="-2.05" y="1.05" drill="0.7"/>
 <hole x="2.05" y="1.05" drill="0.7"/>
 </package>
-<package name="JST-PH6">
+<package name="ISP_PROG_JST_PH6">
 <wire x1="-6.95" y1="-1.7" x2="-3.95" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="-3.95" y1="-1.7" x2="3.95" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="3.95" y1="-1.7" x2="6.95" y2="-1.7" width="0.127" layer="21"/>
@@ -665,6 +665,327 @@ NS Package M08A</description>
 <pad name="1" x="5" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
 <text x="-7" y="3.5001" size="1.27" layer="25">&gt;NAME</text>
 <text x="4.9001" y="-3.4999" size="1.27" layer="21">1</text>
+</package>
+<package name="ISP_PROG_WANNENSTECKER">
+<wire x1="-7.46" y1="4.27" x2="-7.46" y2="-4.23" width="0.127" layer="21"/>
+<wire x1="-7.46" y1="-4.23" x2="7.54" y2="-4.23" width="0.127" layer="21"/>
+<wire x1="7.54" y1="-4.23" x2="7.54" y2="4.27" width="0.127" layer="21"/>
+<wire x1="7.54" y1="4.27" x2="0.54" y2="4.27" width="0.127" layer="21"/>
+<wire x1="-7.46" y1="4.27" x2="-0.46" y2="4.27" width="0.127" layer="21"/>
+<pad name="MISO" x="2.54" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="5V" x="2.54" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="SCK" x="0" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="MOSI" x="0" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="RESET" x="-2.54" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="GND" x="-2.54" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+</package>
+<package name="ISP_PROG_REIHE_DIP">
+<wire x1="-8.89" y1="1.27" x2="-8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="1.27" x2="-8.89" y2="1.27" width="0.127" layer="21"/>
+<pad name="5V" x="5.08" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="MISO" x="2.54" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="SCK" x="0" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="RESET" x="-2.54" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="GND" x="-5.08" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="MOSI" x="-7.62" y="0" drill="1" diameter="1.778" shape="octagon"/>
+</package>
+<package name="ISP_PROG_REIHE_SMD">
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="7.62" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-8.89" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-8.89" x2="2.37" y2="-8.89" width="0.127" layer="22"/>
+<wire x1="2.37" y1="-8.89" x2="2.37" y2="-7.62" width="0.127" layer="22"/>
+<wire x1="2.37" y1="-7.62" x2="2.37" y2="-5.08" width="0.127" layer="22"/>
+<wire x1="2.37" y1="-5.08" x2="2.37" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="2.37" y1="-2.54" x2="2.37" y2="0" width="0.127" layer="22"/>
+<wire x1="2.37" y1="0" x2="2.37" y2="2.54" width="0.127" layer="22"/>
+<wire x1="2.37" y1="2.54" x2="2.37" y2="5.08" width="0.127" layer="22"/>
+<wire x1="2.37" y1="5.08" x2="2.37" y2="7.62" width="0.127" layer="22"/>
+<wire x1="2.37" y1="7.62" x2="2.37" y2="8.89" width="0.127" layer="22"/>
+<wire x1="2.37" y1="8.89" x2="-2.54" y2="8.89" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="7.62" x2="2.37" y2="7.62" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="5.08" x2="2.37" y2="5.08" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="2.54" x2="2.37" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="0" x2="2.37" y2="0" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-2.54" x2="2.37" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-5.08" x2="2.37" y2="-5.08" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-7.62" x2="2.37" y2="-7.62" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="7.62" width="0.127" layer="22"/>
+<smd name="SCK" x="-2.54" y="-1.27" dx="2.54" dy="1.5" layer="1"/>
+<smd name="GND" x="-2.54" y="3.81" dx="2.54" dy="1.5" layer="1"/>
+<smd name="+5V" x="-2.54" y="-6.35" dx="2.54" dy="1.5" layer="1"/>
+<smd name="MOSI" x="2.54" y="6.35" dx="2.54" dy="1.5" layer="1"/>
+<smd name="RESET" x="2.54" y="1.27" dx="2.54" dy="1.5" layer="1"/>
+<smd name="MISO" x="2.54" y="-3.81" dx="2.54" dy="1.5" layer="1"/>
+</package>
+<package name="ISP_PROG_REIHE_PRESS_SMD">
+<smd name="5V" x="5.08" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<smd name="MISO" x="2.54" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<smd name="SCK" x="0" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<smd name="RESET" x="-2.54" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<smd name="GND" x="-5.08" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<smd name="MOSI" x="-7.62" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<hole x="10.16" y="0" drill="0.9"/>
+<hole x="7.62" y="0" drill="0.9"/>
+<hole x="-10.16" y="0" drill="0.9"/>
+</package>
+<package name="ISP_PROG_SMALL_SMD">
+<smd name="5V" x="-0.5" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90"/>
+<smd name="MISO" x="-1.75" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90"/>
+<smd name="SCK" x="-3" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90"/>
+<smd name="RESET" x="-4.25" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90"/>
+<smd name="GND" x="-5.5" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90"/>
+<smd name="MOSI" x="-6.75" y="0" dx="1.6764" dy="0.8128" layer="1" rot="R90"/>
+</package>
+<package name="CSPN-90">
+<wire x1="34.282690625" y1="2.46345" x2="32.782690625" y2="0.96345" width="0.001" layer="20" curve="90"/>
+<wire x1="2.782690625" y1="0.96345" x2="1.282690625" y2="2.46345" width="0.001" layer="20" curve="90"/>
+<wire x1="32.782690625" y1="78.96345" x2="34.282690625" y2="77.46345" width="0.001" layer="20" curve="90"/>
+<wire x1="1.282690625" y1="77.46345" x2="2.782690625" y2="78.96345" width="0.001" layer="20" curve="90"/>
+<wire x1="32.782690625" y1="-0.98655" x2="32.782690625" y2="0.96345" width="0.001" layer="20"/>
+<wire x1="-0.667309375" y1="2.46345" x2="1.282690625" y2="2.46345" width="0.001" layer="20"/>
+<wire x1="36.232690625" y1="77.46345" x2="34.282690625" y2="77.46345" width="0.001" layer="20"/>
+<wire x1="2.782690625" y1="80.91345" x2="2.782690625" y2="78.96345" width="0.001" layer="20"/>
+<wire x1="1.282690625" y1="77.46345" x2="-0.667309375" y2="77.46345" width="0.001" layer="20"/>
+<wire x1="2.782690625" y1="0.96345" x2="2.782690625" y2="-0.98655" width="0.001" layer="20"/>
+<wire x1="34.282690625" y1="2.46345" x2="36.232690625" y2="2.46345" width="0.001" layer="20"/>
+<wire x1="32.782690625" y1="78.96345" x2="32.782690625" y2="80.91345" width="0.001" layer="20"/>
+<wire x1="36.232690625" y1="2.46345" x2="37.232690625" y2="3.46345" width="0.001" layer="20" curve="90"/>
+<wire x1="31.782690625" y1="-1.98655" x2="32.782690625" y2="-0.98655" width="0.001" layer="20" curve="90"/>
+<wire x1="2.782690625" y1="-0.98655" x2="3.782690625" y2="-1.98655" width="0.001" layer="20" curve="90"/>
+<wire x1="-1.667309375" y1="3.46345" x2="-0.667309375" y2="2.46345" width="0.001" layer="20" curve="90"/>
+<wire x1="37.232690625" y1="76.46345" x2="36.232690625" y2="77.46345" width="0.001" layer="20" curve="90"/>
+<wire x1="32.782690625" y1="80.91345" x2="31.782690625" y2="81.91345" width="0.001" layer="20" curve="90"/>
+<wire x1="3.782690625" y1="81.91345" x2="2.782690625" y2="80.91345" width="0.001" layer="20" curve="90"/>
+<wire x1="-0.667309375" y1="77.46345" x2="-1.667309375" y2="76.46345" width="0.001" layer="20" curve="90"/>
+<wire x1="37.232690625" y1="76.46345" x2="37.232690625" y2="3.46345" width="0.001" layer="20"/>
+<wire x1="31.782690625" y1="-1.98655" x2="3.782690625" y2="-1.98655" width="0.001" layer="20"/>
+<wire x1="3.782690625" y1="81.91345" x2="31.782690625" y2="81.91345" width="0.001" layer="20"/>
+<wire x1="-1.667309375" y1="3.46345" x2="-1.667309375" y2="76.46345" width="0.001" layer="20"/>
+<circle x="0.332690625" y="4.46345" radius="0.85" width="0.001" layer="20"/>
+<circle x="35.232690625" y="4.46345" radius="0.85" width="0.001" layer="20"/>
+<circle x="35.232690625" y="39.96345" radius="0.85" width="0.001" layer="20"/>
+<circle x="0.332690625" y="39.96345" radius="0.85" width="0.001" layer="20"/>
+<circle x="35.232690625" y="75.46345" radius="0.85" width="0.001" layer="20"/>
+<circle x="0.332690625" y="75.46345" radius="0.85" width="0.001" layer="20"/>
+<pad name="GND@1" x="7.328259375" y="23.344815625" drill="1" diameter="1.9304"/>
+<pad name="GND@2" x="7.32320625" y="20.34688125" drill="0.9" diameter="1.9304"/>
+<pad name="GND@3" x="5.724040625" y="17.578959375" drill="0.9" diameter="1.9304"/>
+<pad name="VCC@1" x="24.38441875" y="23.89325" drill="1" diameter="1.9304"/>
+<pad name="VCC@2" x="27.3836375" y="23.89085" drill="1" diameter="1.9304"/>
+<pad name="VCC@3" x="11.179690625" y="1.032728125" drill="1" diameter="1.9304"/>
+</package>
+<package name="AT25PE80">
+<wire x1="-1.6002" y1="2.54" x2="-1.6002" y2="-2.54" width="0.0508" layer="21"/>
+<wire x1="1.778" y1="2.54" x2="2.032" y2="2.286" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.032" y1="1.397" x2="2.032" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="2.286" x2="2.032" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="1.143" x2="2.032" y2="0.127" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-0.127" x2="2.032" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-1.143" x2="2.032" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.397" x2="2.032" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-2.286" x2="1.778" y2="-2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.032" y1="2.286" x2="-2.032" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="1.397" x2="-2.032" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.143" x2="-2.032" y2="0.127" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0.127" x2="-2.032" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-1.143" x2="-2.032" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.397" x2="-2.032" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-2.286" x2="-1.778" y2="-2.54" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.778" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="2.54" x2="-1.778" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="2.54" x2="-2.032" y2="2.286" width="0.1524" layer="21" curve="90"/>
+<circle x="-1.016" y="1.778" radius="0.381" width="0.1524" layer="21"/>
+<smd name="CS_FLASH" x="-3.0734" y="1.905" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
+<smd name="VCC" x="3.0734" y="1.905" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
+<smd name="MISO" x="-3.0734" y="0.635" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
+<smd name="WP" x="-3.0734" y="-0.635" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
+<smd name="RESET_FLASH" x="3.0734" y="0.635" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
+<smd name="SCK" x="3.0734" y="-0.635" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
+<smd name="GND" x="-3.0734" y="-1.905" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
+<smd name="MOSI" x="3.0734" y="-1.905" dx="0.6604" dy="2.032" layer="1" rot="R270"/>
+<text x="-2.032" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.905" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="2.2733" y1="-2.4765" x2="2.7813" y2="-1.3335" layer="51" rot="R270"/>
+<rectangle x1="-2.7813" y1="1.3335" x2="-2.2733" y2="2.4765" layer="51" rot="R270"/>
+<rectangle x1="-2.7813" y1="0.0635" x2="-2.2733" y2="1.2065" layer="51" rot="R270"/>
+<rectangle x1="-2.7813" y1="-1.2065" x2="-2.2733" y2="-0.0635" layer="51" rot="R270"/>
+<rectangle x1="-2.7813" y1="-2.4765" x2="-2.2733" y2="-1.3335" layer="51" rot="R270"/>
+<rectangle x1="2.2733" y1="-1.2065" x2="2.7813" y2="-0.0635" layer="51" rot="R270"/>
+<rectangle x1="2.2733" y1="0.0635" x2="2.7813" y2="1.2065" layer="51" rot="R270"/>
+<rectangle x1="2.2733" y1="1.3335" x2="2.7813" y2="2.4765" layer="51" rot="R270"/>
+</package>
+<package name="130_OLED_MIT_LOCH">
+<wire x1="-17.78" y1="15.24" x2="17.62" y2="15.24" width="0.127" layer="21"/>
+<wire x1="17.62" y1="15.24" x2="17.62" y2="-18.26" width="0.127" layer="21"/>
+<wire x1="17.62" y1="-18.26" x2="-17.78" y2="-18.26" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-18.26" x2="-17.78" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="8.89" x2="16.51" y2="8.89" width="0.127" layer="21"/>
+<wire x1="16.51" y1="8.89" x2="16.51" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-11.43" x2="-16.51" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-11.43" x2="-16.51" y2="8.89" width="0.127" layer="21"/>
+<pad name="GND" x="-7.73" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="VCC" x="-5.19" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="D0" x="-2.65" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="D1" x="-0.11" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="RST" x="2.43" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="DC" x="4.97" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="CS" x="7.51" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<hole x="-15.24" y="12.7" drill="2.8"/>
+<hole x="15.24" y="12.7" drill="2.8"/>
+<hole x="15.24" y="-15.24" drill="2.8"/>
+<hole x="-15.24" y="-15.24" drill="2.8"/>
+</package>
+<package name="130_OLED_OHNE_LOCH">
+<wire x1="-17.78" y1="15.24" x2="17.62" y2="15.24" width="0.127" layer="21"/>
+<wire x1="17.62" y1="15.24" x2="17.62" y2="-18.26" width="0.127" layer="21"/>
+<wire x1="17.62" y1="-18.26" x2="-17.78" y2="-18.26" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-18.26" x2="-17.78" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="8.89" x2="16.51" y2="8.89" width="0.127" layer="21"/>
+<wire x1="16.51" y1="8.89" x2="16.51" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-11.43" x2="-16.51" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-11.43" x2="-16.51" y2="8.89" width="0.127" layer="21"/>
+<pad name="GND" x="-7.73" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="VCC" x="-5.19" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="D0" x="-2.65" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="D1" x="-0.11" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="RST" x="2.43" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="DC" x="4.97" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="CS" x="7.51" y="12.72" drill="0.8" diameter="1.6764" shape="octagon"/>
+</package>
+<package name="128X160_TFT">
+<pad name="VCC" x="-10.139" y="-0.0108" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="GND" x="-7.599" y="-0.0108" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SCE" x="-5.059" y="-0.0108" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="RES" x="-2.519" y="-0.0108" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="D/C" x="0.021" y="-0.0108" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SDIN" x="2.561" y="-0.0108" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SCLK" x="5.101" y="-0.0108" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="LED" x="7.641" y="-0.0108" drill="0.8" diameter="1.6764" shape="octagon"/>
+<wire x1="15.24" y1="1.27" x2="-19.05" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="1.27" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-17.78" x2="-19.05" y2="-40.64" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-40.64" x2="-19.05" y2="-54.61" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-54.61" x2="15.24" y2="-54.61" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-54.61" x2="15.24" y2="1.27" width="0.127" layer="21"/>
+<pad name="SD_MISO" x="0.021" y="-53.3508" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SD_MOSI" x="-2.519" y="-53.3508" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SD_CS" x="-5.059" y="-53.3508" drill="0.8" diameter="1.6764" shape="octagon"/>
+<wire x1="-19.05" y1="-40.64" x2="0" y2="-40.64" width="0.127" layer="21"/>
+<wire x1="0" y1="-40.64" x2="0" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="0" y1="-17.78" x2="-19.05" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-3.81" x2="13.97" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-3.81" x2="13.97" y2="-50.8" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-50.8" x2="-17.78" y2="-50.8" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-50.8" x2="-17.78" y2="-3.81" width="0.127" layer="21"/>
+<text x="-16.51" y="-6.35" size="1.27" layer="21">128x160TFT</text>
+<pad name="SD_SCK" x="2.561" y="-53.3508" drill="0.8" diameter="1.6764" shape="octagon"/>
+</package>
+<package name="LCS115-N">
+<wire x1="41.492490625" y1="-9.219809375" x2="37.992490625" y2="-12.402309375" width="0.001" layer="20" curve="90"/>
+<wire x1="3.992490625" y1="-12.402309375" x2="0.492490625" y2="-9.219809375" width="0.001" layer="20" curve="90"/>
+<wire x1="43.992490625" y1="81.510190625" x2="47.492490625" y2="78.010190625" width="0.001" layer="20" curve="90"/>
+<wire x1="-5.507509375" y1="78.010190625" x2="-2.007509375" y2="81.510190625" width="0.001" layer="20" curve="90"/>
+<wire x1="37.992490625" y1="-12.402309375" x2="37.992490625" y2="-12.592309375" width="0.001" layer="20"/>
+<wire x1="3.992490625" y1="-12.592309375" x2="3.992490625" y2="-12.402309375" width="0.001" layer="20"/>
+<wire x1="43.992490625" y1="81.510190625" x2="43.992490625" y2="86.510190625" width="0.001" layer="20"/>
+<wire x1="-2.007509375" y1="86.510190625" x2="-2.007509375" y2="81.510190625" width="0.001" layer="20"/>
+<wire x1="37.992490625" y1="-12.592309375" x2="3.992490625" y2="-12.592309375" width="0.001" layer="20"/>
+<wire x1="43.992490625" y1="86.510190625" x2="-2.007509375" y2="86.510190625" width="0.001" layer="20"/>
+<wire x1="50.992490625" y1="-9.219809375" x2="41.492490625" y2="-9.219809375" width="0.001" layer="20"/>
+<wire x1="0.492490625" y1="-9.219809375" x2="-9.007509375" y2="-9.219809375" width="0.001" layer="20"/>
+<wire x1="-9.007509375" y1="78.010190625" x2="-5.507509375" y2="78.010190625" width="0.001" layer="20"/>
+<wire x1="47.492490625" y1="78.010190625" x2="50.992490625" y2="78.010190625" width="0.001" layer="20"/>
+<wire x1="-9.007509375" y1="-9.219809375" x2="-9.007509375" y2="78.010190625" width="0.001" layer="20"/>
+<wire x1="50.992490625" y1="78.010190625" x2="50.992490625" y2="-9.219809375" width="0.001" layer="20"/>
+<circle x="47.492490625" y="71.510190625" radius="1.25" width="0.001" layer="45"/>
+<circle x="-5.507509375" y="71.510190625" radius="1.25" width="0.001" layer="45"/>
+<hole x="-5.5097" y="71.5127" drill="2.5"/>
+<hole x="47.5001" y="71.5127" drill="2.5"/>
+<hole x="47.4874" y="21.5128" drill="2.5"/>
+<hole x="-5.5097" y="21.5128" drill="2.5"/>
+<hole x="47.4874" y="-4.4841" drill="2.5"/>
+<hole x="-5.5097" y="-4.4841" drill="2.5"/>
+</package>
+<package name="NOKIA_5510_GLCD_WEISS_SCHWARZ_MIT_LOCH">
+<wire x1="-21.209" y1="22.8092" x2="23.791" y2="22.8092" width="0.127" layer="21"/>
+<wire x1="23.791" y1="22.8092" x2="23.791" y2="-22.1908" width="0.127" layer="21"/>
+<wire x1="23.791" y1="-22.1908" x2="-21.209" y2="-22.1908" width="0.127" layer="21"/>
+<wire x1="-21.209" y1="-22.1908" x2="-21.209" y2="22.8092" width="0.127" layer="21"/>
+<wire x1="-16.129" y1="13.9192" x2="-16.129" y2="-16.5608" width="0.127" layer="21"/>
+<wire x1="-16.129" y1="-16.5608" x2="18.161" y2="-16.5608" width="0.127" layer="21"/>
+<wire x1="18.161" y1="-16.5608" x2="18.161" y2="13.9192" width="0.127" layer="21"/>
+<wire x1="18.161" y1="13.9192" x2="-16.129" y2="13.9192" width="0.127" layer="21"/>
+<pad name="VCC" x="-7.599" y="20.3092" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="GND" x="-5.059" y="20.3092" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SCE" x="-2.519" y="20.3092" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="RES" x="0.021" y="20.3092" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="D/C" x="2.561" y="20.3092" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SDIN" x="5.101" y="20.3092" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SCLK" x="7.641" y="20.3092" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="LED" x="10.181" y="20.3092" drill="0.8" diameter="1.6764" shape="octagon"/>
+<text x="-16.129" y="15.1892" size="1.27" layer="21" ratio="10">NOKIA 5510 GLCD WEISS / SCHWARZ</text>
+<hole x="-18.709" y="20.3092" drill="2"/>
+<hole x="21.291" y="20.3092" drill="2"/>
+<hole x="-18.709" y="-19.6908" drill="2"/>
+<hole x="21.291" y="-19.6908" drill="2"/>
+</package>
+<package name="NOKIA_5510_GLCD_WEISS_SCHWARZ_OHNE_LOCH">
+<wire x1="-21.1328" y1="22.8346" x2="23.8672" y2="22.8346" width="0.127" layer="21"/>
+<wire x1="23.8672" y1="22.8346" x2="23.8672" y2="-22.1654" width="0.127" layer="21"/>
+<wire x1="23.8672" y1="-22.1654" x2="-21.1328" y2="-22.1654" width="0.127" layer="21"/>
+<wire x1="-21.1328" y1="-22.1654" x2="-21.1328" y2="22.8346" width="0.127" layer="21"/>
+<wire x1="-16.0528" y1="13.9446" x2="-16.0528" y2="-16.5354" width="0.127" layer="21"/>
+<wire x1="-16.0528" y1="-16.5354" x2="18.2372" y2="-16.5354" width="0.127" layer="21"/>
+<wire x1="18.2372" y1="-16.5354" x2="18.2372" y2="13.9446" width="0.127" layer="21"/>
+<wire x1="18.2372" y1="13.9446" x2="-16.0528" y2="13.9446" width="0.127" layer="21"/>
+<pad name="VCC" x="-7.6228" y="20.3346" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="GND" x="-5.0828" y="20.3346" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SCE" x="-2.5428" y="20.3346" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="RES" x="-0.0028" y="20.3346" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="D/C" x="2.5372" y="20.3346" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SDIN" x="5.0772" y="20.3346" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="SCLK" x="7.6172" y="20.3346" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="LED" x="10.1572" y="20.3346" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="P$1" x="-7.6228" y="-19.6654" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="P$2" x="-5.0828" y="-19.6654" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="P$3" x="-2.5428" y="-19.6654" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="P$4" x="-0.0028" y="-19.6654" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="P$5" x="2.5372" y="-19.6654" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="P$6" x="5.0772" y="-19.6654" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="P$7" x="7.6172" y="-19.6654" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="P$8" x="10.1572" y="-19.6654" drill="0.8" diameter="1.6764" shape="octagon"/>
+<text x="-16.0528" y="15.2146" size="1.27" layer="21" ratio="10">NOKIA 5510 GLCD WEISS / SCHWARZ</text>
+</package>
+<package name="STEP_DOWN_CONVERTER_3A">
+<wire x1="-12.7" y1="4.725" x2="-12.7" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-17.78" x2="32.125" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="32.125" y1="-17.78" x2="32.125" y2="4.725" width="0.127" layer="21"/>
+<wire x1="32.125" y1="4.725" x2="-12.7" y2="4.725" width="0.127" layer="21"/>
+<pad name="IN+" x="-10.16" y="2.165" drill="0.8" diameter="3.81" shape="octagon"/>
+<pad name="OUT+" x="29.585" y="2.165" drill="0.8" diameter="3.81" shape="octagon"/>
+<pad name="OUT-" x="29.585" y="-15.24" drill="0.8" diameter="3.81" shape="octagon"/>
+<pad name="IN-" x="-10.16" y="-15.24" drill="0.8" diameter="3.81" shape="octagon"/>
+</package>
+<package name="SERVO_STECKER">
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-6.35" x2="11.43" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-6.35" x2="11.43" y2="3.81" width="0.127" layer="21"/>
+<wire x1="11.43" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<pad name="SIGNAL" x="-3.81" y="1.27" drill="0.8" diameter="1.778" shape="long"/>
+<pad name="5V" x="-3.81" y="-1.27" drill="0.8" diameter="1.778" shape="long"/>
+<pad name="GND" x="-3.81" y="-3.81" drill="0.8" diameter="1.778" shape="long"/>
+<text x="0" y="1.27" size="1.27" layer="21">Signal</text>
+<text x="0" y="-1.27" size="1.27" layer="21">5V</text>
+<text x="0" y="-3.81" size="1.27" layer="21">GND</text>
 </package>
 </packages>
 <symbols>
@@ -1113,6 +1434,120 @@ NS Package M08A</description>
 <pin name="GND" x="-5.08" y="0" length="middle"/>
 <pin name="MOSI" x="-5.08" y="-2.54" length="middle"/>
 </symbol>
+<symbol name="CSPN-90">
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<pin name="GND@1" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND@2" x="-20.32" y="10.16" length="middle"/>
+<pin name="GND@3" x="-20.32" y="2.54" length="middle" direction="nc"/>
+<pin name="VCC@3" x="-20.32" y="0" length="middle" direction="nc"/>
+<pin name="VCC@1" x="-20.32" y="-7.62" length="middle"/>
+<pin name="VCC@2" x="-20.32" y="-10.16" length="middle"/>
+</symbol>
+<symbol name="AT25PE80">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<pin name="CS_FLASH" x="-15.24" y="5.08" visible="off" length="middle"/>
+<pin name="MISO" x="-15.24" y="2.54" visible="off" length="middle"/>
+<pin name="WP" x="-15.24" y="0" length="middle"/>
+<pin name="GND" x="-15.24" y="-2.54" length="middle"/>
+<pin name="MOSI" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="SCK" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="RESET_FLASH" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="20.32" y="5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="-7.62" size="1.27" layer="94">AT25_FLASH</text>
+</symbol>
+<symbol name="130_OLED">
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="-12.7" size="1.27" layer="94" ratio="10">1.3" OLED</text>
+<pin name="GND" x="-10.16" y="7.62" length="middle"/>
+<pin name="VCC" x="-10.16" y="5.08" length="middle"/>
+<pin name="D0" x="-10.16" y="2.54" length="middle"/>
+<pin name="D1" x="-10.16" y="0" length="middle"/>
+<pin name="RST" x="-10.16" y="-2.54" length="middle"/>
+<pin name="DC" x="-10.16" y="-5.08" length="middle"/>
+<pin name="CS" x="-10.16" y="-7.62" length="middle"/>
+</symbol>
+<symbol name="128X160_TFT">
+<wire x1="-22.86" y1="12.7" x2="-22.86" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="-22.86" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-21.59" y1="11.43" x2="-21.59" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-21.59" y1="-8.89" x2="3.81" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-8.89" x2="3.81" y2="11.43" width="0.254" layer="94"/>
+<wire x1="3.81" y1="11.43" x2="-21.59" y2="11.43" width="0.254" layer="94"/>
+<pin name="VCC" x="-27.94" y="10.16" length="middle"/>
+<pin name="GND" x="-27.94" y="7.62" length="middle"/>
+<pin name="SCE" x="-27.94" y="5.08" length="middle"/>
+<pin name="RES" x="-27.94" y="2.54" length="middle"/>
+<pin name="D/C" x="-27.94" y="0" length="middle"/>
+<pin name="SDIN" x="-27.94" y="-2.54" length="middle"/>
+<pin name="SCLK" x="-27.94" y="-5.08" length="middle"/>
+<pin name="LED" x="-27.94" y="-7.62" length="middle"/>
+<pin name="SD_SCK" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="SD_MISO" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="SD_MOSI" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="SD_CS" x="10.16" y="5.08" length="middle" rot="R180"/>
+<text x="-20.32" y="15.24" size="1.27" layer="94">128x160TFT / SD Cardreader</text>
+</symbol>
+<symbol name="LCS115-N">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.27" layer="94">PCB outline for LCS115-N</text>
+</symbol>
+<symbol name="NOKIA_5510_GLCD">
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="20.32" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-12.7" x2="20.32" y2="10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-10.16" x2="17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="-15.24" size="1.27" layer="94" ratio="10">NOKIA 5510 GLCD</text>
+<pin name="VCC" x="-12.7" y="7.62" length="middle"/>
+<pin name="GND" x="-12.7" y="5.08" length="middle"/>
+<pin name="SCE" x="-12.7" y="2.54" length="middle"/>
+<pin name="RES" x="-12.7" y="0" length="middle"/>
+<pin name="D/C" x="-12.7" y="-2.54" length="middle"/>
+<pin name="SDIN" x="-12.7" y="-5.08" length="middle"/>
+<pin name="SCLK" x="-12.7" y="-7.62" length="middle"/>
+<pin name="LED" x="-12.7" y="-10.16" length="middle"/>
+</symbol>
+<symbol name="STEP_DOWN_CONVERTER_3A">
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<pin name="IN+" x="-22.86" y="15.24" visible="pin" length="middle"/>
+<pin name="IN-" x="-22.86" y="5.08" length="middle"/>
+<pin name="OUT+" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="OUT-" x="17.78" y="5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="SERVO_STECKER">
+<wire x1="0" y1="7.62" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="-5.08" size="1.778" layer="94">SERVO_STECKER</text>
+<pin name="SIGNAL" x="-5.08" y="5.08" length="middle"/>
+<pin name="5V" x="-5.08" y="2.54" length="middle"/>
+<pin name="GND" x="-5.08" y="0" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TEST">
@@ -1545,12 +1980,77 @@ Source: https://www.distrelec.ch/ishop/Datasheets/joLM2594xxx-xx_e.pdf</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="ISP_PROG_STECKER_JST_2MM">
+<deviceset name="ISP_PROG_STECKER">
 <gates>
-<gate name="G$1" symbol="ISP_PROG_STECKER" x="-2.54" y="-2.54"/>
+<gate name="G$1" symbol="ISP_PROG_STECKER" x="-5.08" y="0"/>
 </gates>
 <devices>
-<device name="" package="JST-PH6">
+<device name="ISP_PROG_WANNENSTECKER" package="ISP_PROG_WANNENSTECKER">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ISP_PROG_REIHE_DIP" package="ISP_PROG_REIHE_DIP">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ISP_PROG_REIHE_SMD" package="ISP_PROG_REIHE_SMD">
+<connects>
+<connect gate="G$1" pin="5V" pad="+5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ISP_PROG_REIHE_PRESS_SMD" package="ISP_PROG_REIHE_PRESS_SMD">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="ISP_PROG_SMALL_SMD">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-PH6" package="ISP_PROG_JST_PH6">
 <connects>
 <connect gate="G$1" pin="5V" pad="1"/>
 <connect gate="G$1" pin="GND" pad="5"/>
@@ -1558,6 +2058,193 @@ Source: https://www.distrelec.ch/ishop/Datasheets/joLM2594xxx-xx_e.pdf</descript
 <connect gate="G$1" pin="MOSI" pad="6"/>
 <connect gate="G$1" pin="RESET" pad="4"/>
 <connect gate="G$1" pin="SCK" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CSPB-90">
+<gates>
+<gate name="G$1" symbol="CSPN-90" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="CSPN-90">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="VCC@1" pad="VCC@1"/>
+<connect gate="G$1" pin="VCC@2" pad="VCC@2"/>
+<connect gate="G$1" pin="VCC@3" pad="VCC@3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AT25PE80">
+<gates>
+<gate name="G$1" symbol="AT25PE80" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="AT25PE80">
+<connects>
+<connect gate="G$1" pin="CS_FLASH" pad="CS_FLASH"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RESET_FLASH" pad="RESET_FLASH"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="WP" pad="WP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="130_OLED">
+<gates>
+<gate name="G$1" symbol="130_OLED" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="130_OLED_MIT_LOCH" package="130_OLED_MIT_LOCH">
+<connects>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="D0" pad="D0"/>
+<connect gate="G$1" pin="D1" pad="D1"/>
+<connect gate="G$1" pin="DC" pad="DC"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="130_OLED_OHNE_LOCH" package="130_OLED_OHNE_LOCH">
+<connects>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="D0" pad="D0"/>
+<connect gate="G$1" pin="D1" pad="D1"/>
+<connect gate="G$1" pin="DC" pad="DC"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="128X160_TFT">
+<gates>
+<gate name="G$1" symbol="128X160_TFT" x="10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="128X160_TFT">
+<connects>
+<connect gate="G$1" pin="D/C" pad="D/C"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="RES" pad="RES"/>
+<connect gate="G$1" pin="SCE" pad="SCE"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SDIN" pad="SDIN"/>
+<connect gate="G$1" pin="SD_CS" pad="SD_CS"/>
+<connect gate="G$1" pin="SD_MISO" pad="SD_MISO"/>
+<connect gate="G$1" pin="SD_MOSI" pad="SD_MOSI"/>
+<connect gate="G$1" pin="SD_SCK" pad="SD_SCK"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LCS115-N">
+<gates>
+<gate name="G$1" symbol="LCS115-N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LCS115-N">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NOKIA_5510_GLCD">
+<gates>
+<gate name="G$1" symbol="NOKIA_5510_GLCD" x="-5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="NOKIA_5510_GLCD_WEISS_SCHWARZ_MIT_LOCH" package="NOKIA_5510_GLCD_WEISS_SCHWARZ_MIT_LOCH">
+<connects>
+<connect gate="G$1" pin="D/C" pad="D/C"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="RES" pad="RES"/>
+<connect gate="G$1" pin="SCE" pad="SCE"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SDIN" pad="SDIN"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NOKIA_5510_GLCD_WEISS_SCHWARZ_OHNE_LOCH" package="NOKIA_5510_GLCD_WEISS_SCHWARZ_OHNE_LOCH">
+<connects>
+<connect gate="G$1" pin="D/C" pad="D/C"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="RES" pad="RES"/>
+<connect gate="G$1" pin="SCE" pad="SCE"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SDIN" pad="SDIN"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STEP_DOWN_CONVERTER_3A">
+<gates>
+<gate name="G$1" symbol="STEP_DOWN_CONVERTER_3A" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="STEP_DOWN_CONVERTER_3A">
+<connects>
+<connect gate="G$1" pin="IN+" pad="IN+"/>
+<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="OUT+" pad="OUT+"/>
+<connect gate="G$1" pin="OUT-" pad="OUT-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SERVO_STECKER">
+<gates>
+<gate name="G$1" symbol="SERVO_STECKER" x="-5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="SERVO_STECKER" package="SERVO_STECKER">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
 </connects>
 <technologies>
 <technology name=""/>
